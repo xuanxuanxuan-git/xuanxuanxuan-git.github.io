@@ -6,11 +6,20 @@ body {
 
 .header {
     color: #2e3b69;
-    text-align: center;
+    /* text-align: center; */
     max-width: 52em;
+    height: 10em;
     margin: auto;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    
 }
 
+.header h1{
+    letter-spacing: 1.5px;
+    font-size: 40px;
+}
 hr {
     border: none;
     max-width: 52em;
@@ -41,7 +50,10 @@ h2 {
     color: #2e3b69;
 }
 
-
+h4 {
+    font-weight: 550;
+    font-size: 16px;
+}
 .container{
     padding-left: 30px;
     padding-right: 30px;
@@ -78,10 +90,16 @@ h2 {
 
 .container ul li {
     font-size: 14px;
-    padding: 0px 0 10px 20px;
+    padding: 0px 0 5px 20px;
     text-indent: -1em;
+    line-height: 1.7;
 }
 
+.container h5 {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0px 0 0px 0px;
+}
 
 .footer {
     text-align: center;
