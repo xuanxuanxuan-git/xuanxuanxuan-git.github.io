@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto Slab', sans-serif;
+    background: #F7F7F7;
+    margin: 0;
+}
+
+.header {
+    color: #2e3b69;
+    text-align: center;
+    max-width: 52em;
+    margin: auto;
+}
+
+hr {
+    border: none;
+    max-width: 52em;
+    border-top: 3px solid #2e3b69;
+    overflow: visible;
+    height: 5px;
+}
+
+hr:after {
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.nav {
+    text-align: right;
+}
+
+.main-nav {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    word-spacing: 1.5em;
+}
+
+
+h2 {
+    color: #2e3b69;
+}
+
+
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    width: 960px;
+  }
+
+.contact{
+    background-color: #e6e6ea;
+    height: 17em;
+    width: 100%;
+}
+
+
+.col_1 {
+    width: 40%;
+    float: left;
+    /* padding-left: 10em; */
+    /* padding-right: 10em; */
+    margin: 0 auto;
+    margin-left: 10em;
+    width: 460px;
+    
+}
+.col_2 {
+    width: 40%;
+    float: right;
+}
+
+
+#profile-pic {
+    margin-top: 35px;
+}
+
+.container ul li {
+    font-size: 14px;
+    padding: 0px 0 10px 20px;
+    text-indent: -1em;
+}
+
+
+.footer {
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+    color:#fff;
+    background-color: #2e3b69;
+}
