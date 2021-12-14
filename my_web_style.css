@@ -231,6 +231,7 @@ h4 {
 }
 .container h4 {
     margin-bottom: -5px;
+    font-size: 1em;
 }
 
 .container h5 {
