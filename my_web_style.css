@@ -51,15 +51,33 @@ hr:after {
     width: 100%;
 }
 
-.navbar a{
+.navbar .left{
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: ivory;
     text-align: center;
     text-decoration: none;
     padding: 13px 10px;
     font-size: 20px;
     letter-spacing: 1px;
+}
+
+.navbar .lan ul{
+    font-size: 16px;
+    color: ivory;
+    list-style: none;
+    overflow: hidden;
+    margin-right: 12px;
+}
+
+.navbar .lan ul li{
+    float:right;
+}
+
+.navbar .lan ul li a{
+    text-decoration: none;
+    color: inherit;
+    margin: 3px 3px;
 }
 
 .side-nav {
@@ -114,6 +132,10 @@ hr:after {
     line-height: 1.7;
     color: #3b5998;
     font-size: 16px;
+}
+
+.col_1 a{
+    text-decoration: none;
 }
 
 .col_1 a, .container a{
@@ -176,6 +198,12 @@ h4 {
     line-height: 1.7;
 }
 
+.container ul li .fa-link{
+    margin-left: 16px;
+    font-size: 10px;
+}
+
+
 .container h4 {
     margin-bottom: -5px;
 }
@@ -185,7 +213,6 @@ h4 {
     font-weight: normal;
     padding: 0px 0px 0px 0px;
     margin-bottom: -6px;
-    /* margin-top: -6px; */
 }
 
 .footer {
