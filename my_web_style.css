@@ -1,25 +1,29 @@
 body {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Roboto Slab';
     background: #F7F7F7;
     margin: 0;
+    overflow-x: auto;
 }
 
+/* --------------------- My name ----------------- */
 .header {
     color: #2e3b69;
     /* text-align: center; */
+    
     max-width: 52em;
     height: 10em;
-    margin: auto;
+    margin:0 auto;
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
-    
 }
 
 .header h1{
     letter-spacing: 1.5px;
     font-size: 40px;
+    margin-top: 65px;
 }
+
 hr {
     border: none;
     max-width: 52em;
@@ -34,17 +38,120 @@ hr:after {
     top: -13px;
 }
 
-.nav {
-    text-align: right;
+
+/* --------------------------- Side bar ------------------------- */
+
+.navbar{
+    background-color: #3b5998;
+    overflow: hidden;
+    height: 50px;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
-.main-nav {
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
     font-size: 16px;
-    font-weight: 600;
-    letter-spacing: .5px;
-    word-spacing: 1.5em;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
 }
 
+.side-nav a:hover{
+    color: #fff;
+}
+
+.side-nav .btn-close{
+    position: absolute;
+    top: 10px;
+    font-size: 30px;
+}
+
+/* --------------------- Contact ------------------ */
+ *,
+ *:before,
+ *:after {
+   -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+           box-sizing: border-box;
+ }
+ 
+.col_1 {
+    width: 55%;
+    float: left;
+    margin-top: 30px;    
+}
+
+.col_1 p{
+    line-height: 1.7;
+    color: #3b5998;
+    font-size: 16px;
+}
+
+.col_1 a, .container a{
+    color: inherit;
+}
+
+.col_2 {
+    width: 45%;
+    float: right;
+}
+
+.col_1, .col_2{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grid, .col_1, .col_2{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.grid {
+    margin: 0 auto;
+    width: 960px;
+  }  
+
+
+.contact{
+    background-color: #e6e6ea;
+    height: 15em;
+    width: 100%;
+}
+
+#profile-pic {
+    margin-top: 30px;
+}
+
+/* ------------------------ Content --------------------- */
 
 h2 {
     color: #2e3b69;
@@ -54,39 +161,13 @@ h4 {
     font-weight: 550;
     font-size: 16px;
 }
+
 .container{
     padding-left: 30px;
     padding-right: 30px;
     margin: 0 auto;
     width: 960px;
   }
-
-.contact{
-    background-color: #e6e6ea;
-    height: 17em;
-    width: 100%;
-}
-
-
-.col_1 {
-    width: 40%;
-    float: left;
-    /* padding-left: 10em; */
-    /* padding-right: 10em; */
-    margin: 0 auto;
-    margin-left: 10em;
-    width: 460px;
-    
-}
-.col_2 {
-    width: 40%;
-    float: right;
-}
-
-
-#profile-pic {
-    margin-top: 35px;
-}
 
 .container ul li {
     font-size: 14px;
@@ -95,16 +176,22 @@ h4 {
     line-height: 1.7;
 }
 
+.container h4 {
+    margin-bottom: -5px;
+}
+
 .container h5 {
     font-size: 14px;
     font-weight: normal;
-    padding: 0px 0 0px 0px;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: -6px;
+    /* margin-top: -6px; */
 }
 
 .footer {
     text-align: center;
-    padding-top:15px;
-    padding-bottom:15px;
+    padding-top:13px;
+    padding-bottom:13px;
     color:#fff;
     background-color: #2e3b69;
 }
