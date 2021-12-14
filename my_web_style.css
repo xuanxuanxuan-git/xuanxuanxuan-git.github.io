@@ -247,7 +247,7 @@ h4 {
     margin-bottom: 22px;
     font-size: 15px;
     font-weight: lighter;
-    color: dimgrey;
+    /* color: dimgrey; */
     line-height: 1.6;
 }
 .footer {
