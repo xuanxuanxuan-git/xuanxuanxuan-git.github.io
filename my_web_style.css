@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab', serif;
     background: #F7F7F7;
     margin: 0;
     overflow-x: auto;
@@ -138,6 +138,10 @@ hr:after {
     text-decoration: none;
 }
 
+.col_1 a:hover{
+    text-decoration: underline;
+}
+
 .col_1 a, .container a{
     color: inherit;
 }
@@ -182,6 +186,7 @@ h2 {
 h4 {
     font-weight: 550;
     font-size: 16px;
+    margin: 0;
 }
 
 .container{
@@ -191,19 +196,39 @@ h4 {
     width: 960px;
   }
 
+.container td{
+    padding: 0px;
+}
+
+.container .left-cell{
+    width: 650px;
+}
+
+.container .right-cell{
+    width: 200px;
+    text-align: right;
+}
 .container ul li {
     font-size: 14px;
     padding: 0px 0 5px 20px;
-    text-indent: -1em;
     line-height: 1.7;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .container ul li .fa-link{
-    margin-left: 16px;
-    font-size: 10px;
+    margin-left: 6px;
+    font-size: 14px;
 }
 
-
+.container a{
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(180, 179, 179);
+    text-underline-position: under;
+}
+.container a:hover{
+    color: #3b5998;
+}
 .container h4 {
     margin-bottom: -5px;
 }
@@ -212,6 +237,7 @@ h4 {
     font-size: 14px;
     font-weight: normal;
     padding: 0px 0px 0px 0px;
+    margin-top: 15px;
     margin-bottom: -6px;
 }
 
