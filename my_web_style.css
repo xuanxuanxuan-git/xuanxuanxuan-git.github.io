@@ -147,7 +147,7 @@ hr:after {
 }
 
 .col_2 {
-    width: 45%;
+    width: 35%;
     float: right;
 }
 
@@ -174,6 +174,10 @@ hr:after {
 }
 
 #profile-pic {
+    height: 100%;
+}
+
+#profile-pic_cn {
     margin-top: 30px;
 }
 
