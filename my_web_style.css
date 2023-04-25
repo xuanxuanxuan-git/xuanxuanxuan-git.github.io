@@ -9,16 +9,18 @@ body {
 .header {
     color: #2e3b69;
     /* text-align: center; */
-    
+
     max-width: 52em;
     height: 10em;
-    margin:0 auto;
+    margin: 0 auto;
     display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
 }
 
-.header h1{
+.header h1 {
     letter-spacing: 1.5px;
     font-size: 40px;
     margin-top: 65px;
@@ -41,7 +43,7 @@ hr:after {
 
 /* --------------------------- Side bar ------------------------- */
 
-.navbar{
+.navbar {
     background-color: #2e3b69;
     overflow: hidden;
     height: 50px;
@@ -51,7 +53,7 @@ hr:after {
     width: 100%;
 }
 
-.navbar .left{
+.navbar .left {
     float: left;
     display: block;
     color: ivory;
@@ -62,7 +64,7 @@ hr:after {
     letter-spacing: 1px;
 }
 
-.navbar .lan ul{
+.navbar .lan ul {
     font-size: 16px;
     color: ivory;
     list-style: none;
@@ -70,11 +72,11 @@ hr:after {
     margin-right: 12px;
 }
 
-.navbar .lan ul li{
-    float:right;
+.navbar .lan ul li {
+    float: right;
 }
 
-.navbar .lan ul li a{
+.navbar .lan ul li a {
     text-decoration: none;
     color: inherit;
     margin: 3px 3px;
@@ -94,7 +96,7 @@ hr:after {
     transition: 0.5s;
 }
 
-.side-nav a{
+.side-nav a {
     padding: 10px 10px 10px 30px;
     text-decoration: none;
     font-size: 16px;
@@ -103,47 +105,48 @@ hr:after {
     transition: 0.3s;
 }
 
-.side-nav a:hover{
+.side-nav a:hover {
     color: #fff;
 }
 
-.side-nav .btn-close{
+.side-nav .btn-close {
     position: absolute;
     top: 10px;
     font-size: 30px;
 }
 
 /* --------------------- Contact ------------------ */
- *,
- *:before,
- *:after {
-   -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-           box-sizing: border-box;
- }
- 
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .col_1 {
     width: 55%;
     float: left;
     margin-top: 20px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
-.col_1 p{
+.col_1 p {
     line-height: 1.7;
     color: #2e3b69;
     font-size: 16px;
 }
 
-.col_1 a{
+.col_1 a {
     text-decoration: none;
 }
 
-.col_1 a:hover{
+.col_1 a:hover {
     text-decoration: underline;
 }
 
-.col_1 a, .container a{
+.col_1 a,
+.container a {
     color: inherit;
 }
 
@@ -152,12 +155,15 @@ hr:after {
     float: right;
 }
 
-.col_1, .col_2{
+.col_1,
+.col_2 {
     display: inline-block;
     vertical-align: top;
 }
 
-.grid, .col_1, .col_2{
+.grid,
+.col_1,
+.col_2 {
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -165,10 +171,10 @@ hr:after {
 .grid {
     margin: 0 auto;
     width: 960px;
-  }  
+}
 
 
-.contact{
+.contact {
     background-color: #e6e6ea;
     height: 16em;
     width: 100%;
@@ -194,25 +200,26 @@ h4 {
     margin: 0;
 }
 
-.container{
+.container {
     padding-left: 30px;
     padding-right: 30px;
     margin: 0 auto;
     width: 960px;
-  }
+}
 
-.container td{
+.container td {
     padding: 0px;
 }
 
-.container .left-cell{
+.container .left-cell {
     width: 700px;
 }
 
-.container .right-cell{
+.container .right-cell {
     width: 220px;
     text-align: right;
 }
+
 .container ul li {
     font-size: 14px;
     padding: 0px 0 5px 20px;
@@ -221,19 +228,21 @@ h4 {
     text-justify: inter-word;
 }
 
-.container ul li .fa-link{
+.container ul li .fa-link {
     margin-left: 6px;
     font-size: 14px;
 }
 
-.container a{
+.container a {
     text-decoration-thickness: 2px;
     text-decoration-color: rgb(180, 179, 179);
     text-underline-position: under;
 }
-.container a:hover{
+
+.container a:hover {
     color: #3b5998;
 }
+
 .container h4 {
     margin-bottom: -5px;
     font-size: 1em;
@@ -247,18 +256,19 @@ h4 {
     margin-bottom: -6px;
 }
 
-.container p{
-    text-align: justify; 
+.container p {
+    text-align: justify;
     margin-bottom: 22px;
     font-size: 15px;
     font-weight: lighter;
     /* color: dimgrey; */
     line-height: 1.6;
 }
+
 .footer {
     text-align: center;
-    padding-top:13px;
-    padding-bottom:13px;
-    color:#fff;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: #fff;
     background-color: #2e3b69;
 }
